@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>哥廷根深度学术与文化考察项目</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      border-radius: 8px;
+    }
+    .header {
+      text-align: center;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #003366;
+    }
+    .header h1 {
+      font-size: 2.2em;
+      color: #003366;
+      margin: 0;
+      font-weight: 600;
+    }
+    .header h2 {
+      font-size: 1.4em;
+      color: #555;
+      margin-top: 10px;
+      font-weight: 400;
+    }
+    .section {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #e0e0e0;
+    }
+    .section h3 {
+      font-size: 1.6em;
+      color: #003366;
+      border-left: 4px solid #005a9c;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+    .welcome-text,
+    .highlights ul {
+      font-size: 1.1em;
+      color: #444;
+    }
+    .highlights ul {
+      list-style-type: '✓ ';
+      padding-left: 20px;
+    }
+    .highlights li {
+      margin-bottom: 10px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    .gallery-caption {
+      text-align: center;
+      font-size: 0.95em;
+      margin-top: 5px;
+      color: #555;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      font-size: 1em;
+    }
+    th, td {
+      border: 1px solid #dee2e6;
+      padding: 12px 15px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+      font-weight: 600;
+      color: #333;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    .schedule-table .day-header {
+      background-color: #e7f0f7;
+      font-weight: bold;
+      color: #003366;
+    }
+    .details-list .item {
+      margin-bottom: 20px;
+    }
+    .details-list .item-title {
+      font-weight: bold;
+      font-size: 1.2em;
+      color: #005a9c;
+    }
+    .details-list .item-description {
+      margin-top: 5px;
+      padding-left: 15px;
+      border-left: 2px solid #ccc;
+      color: #555;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #e0e0e0;
+      font-size: 0.9em;
+      color: #888;
+    }
+    @media (max-width: 600px) {
+      .container {
+        margin: 0;
+        padding: 15px;
+        border-radius: 0;
+        box-shadow: none;
+      }
+      .header h1 {
+        font-size: 1.8em;
+      }
+      .header h2 {
+        font-size: 1.2em;
+      }
+      .section h3 {
+        font-size: 1.4em;
+      }
+      th, td {
+        padding: 8px;
+      }
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <h1>哥廷根深度学术与文化考察项目</h1>
+      <h2>为尊敬的教授代表团定制</h2>
+    </header>
+
+    <!-- Welcome -->
+    <section class="section">
+      <h3>欢迎致辞</h3>
+      <p class="welcome-text">
+        尊敬的各位教授：<br>
+        我们怀着无比荣幸的心情，欢迎您来到德国的学术心脏——哥廷根。这座城市不仅孕育了四十余位诺贝尔奖得主，更是中德文化交流史上的一座重要桥梁。在接下来的几天里，我们精心为您安排了一系列深度学术讲座与文化考察活动，旨在为您呈现一个立体、真实且富有底蕴的哥廷根。愿此行能成为一次启迪思想、增进友谊的难忘之旅。
+      </p>
+    </section>
+
+    <!-- Highlights & Gallery -->
+    <section class="section">
+      <h3>核心亮点</h3>
+      <div class="highlights">
+        <ul>
+          <li>与哥廷根大学资深教授进行前沿学术对话（经济研究 & 跨文化研究）。</li>
+          <li>探访朱德元帅与国学大师季羡林先生的哥廷根故居，追寻伟人足迹。</li>
+          <li>深度参观世界顶尖学府哥廷根大学，感受浓厚的学术氛围。</li>
+          <li>特别安排德国“双元制”职业教育体系分享会，深入了解德国制造的基石。</li>
+          <li>品味地道德国美食，于历史悠久的市政厅感受中世纪风情。</li>
+        </ul>
+      </div>
+
+      <!-- Gallery with real images -->
+      <div class="gallery">
+        <div>
+          <img src="rathaus.jpg" alt="哥廷根老市政厅" />
+          <div class="gallery-caption">哥廷根老市政厅（Altes Rathaus）</div>
+        </div>
+        <div>
+          <img src="zhude.jpg" alt="朱德纪念牌" />
+          <div class="gallery-caption">朱德元帅纪念牌（Plankstraße）</div>
+        </div>
+        <div>
+          <img src="xiaoenv.jpg" alt="牧鹅少女喷泉" />
+          <div class="gallery-caption">哥廷根市政厅前的牧鹅少女喷泉</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Schedule -->
+    <section class="section">
+      <h3>详细日程安排</h3>
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>日期</th>
+            <th>时间</th>
+            <th>活动内容</th>
+            <th>地点/备注</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="day-header">
+            <td colspan="4">第一天：抵达与初探</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Day 1</td>
+            <td>上午</td>
+            <td>从法兰克福出发，乘坐ICE前往哥廷根</td>
+            <td>专车接送至火车站</td>
+          </tr>
+          <tr>
+            <td>中午</td>
+            <td>抵达哥廷根，享用欢迎午餐</td>
+            <td>当地特色餐厅</td>
+          </tr>
+          <tr>
+            <td>下午</td>
+            <td><strong>哥廷根大学参观</strong> (由向导陪同)</td>
+            <td>包括主校区、图书馆及历史建筑</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>晚上</td>
+            <td>欢迎晚宴</td>
+            <td>与德方代表交流</td>
+          </tr>
+          <tr class="day-header">
+            <td colspan="4">第二天：学术与历史的交融</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Day 2</td>
+            <td>上午</td>
+            <td><strong>专题讲座一：当代经济研究前沿</strong></td>
+            <td>哥廷根大学会议室</td>
+          </tr>
+          <tr>
+            <td>中午</td>
+            <td>工作午餐</td>
+            <td>会议室或附近餐厅</td>
+          </tr>
+          <tr>
+            <td>下午</td>
+            <td><strong>文化考察：朱德、季羡林故居及老市政厅参观</strong></td>
+            <td>专业导游讲解</td>
+          </tr>
+          <tr class="day-header">
+            <td colspan="4">第三天：思想碰撞与启程</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Day 3</td>
+            <td>上午</td>
+            <td><strong>专题讲座二：全球化背景下的跨文化研究</strong></td>
+            <td>哥廷根大学会议室</td>
+          </tr>
+          <tr>
+            <td>上午</td>
+            <td><strong>分享会：德国双元制职业教育体系解析</strong></td>
+            <td>由李永瑞先生主讲</td>
+          </tr>
+          <tr>
+            <td>中午</td>
+            <td>欢送午宴，活动总结</td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Lectures -->
+    <section class="section">
+      <h3>讲座与分享会介绍</h3>
+      <div class="details-list">
+        <div class="item">
+          <div class="item-title">专题讲座一：当代经济研究前沿</div>
+          <div class="item-description">探讨全球经济挑战与哥廷根学派的研究成果。</div>
+        </div>
+        <div class="item">
+          <div class="item-title">专题讲座二：全球化背景下的跨文化研究</div>
+          <div class="item-description">分析跨文化交流中的挑战，提供新的研究视角。</div>
+        </div>
+        <div class="item">
+          <div class="item-title">专题分享会：德国双元制职业教育体系解析</div>
+          <div class="item-description">深入解析德式企业+学校人才培养机制。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cultural Sites -->
+    <section class="section">
+      <h3>文化考察点介绍</h3>
+      <div class="details-list">
+        <div class="item">
+          <div class="item-title">哥廷根大学</div>
+          <div class="item-description">德国顶尖研究型大学，学术自由传统浓厚。</div>
+        </div>
+        <div class="item">
+          <div class="item-title">朱德与季羡林故居</div>
+          <div class="item-description">两位历史伟人曾在此学习，见证中德交流史。</div>
+        </div>
+        <div class="item">
+          <div class="item-title">老市政厅</div>
+          <div class="item-description">中世纪哥特式建筑，文艺气息浓厚，是当地地标。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>我们期待与您在哥廷根相会！</p>
+    </footer>
+  </div>
+</body>
+</html>
